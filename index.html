@@ -16,7 +16,7 @@
 
   <body class="bg-light dark:bg-dark text-dark dark:text-slate-300 ">
 
-    <header class="flex flex-col bg-bg-red text-light h-56 pt-3 items-center md:flex-row md:justify-between md:pt-0 md:h-18 dark:text-dark">
+    <header class="flex flex-col bg-bg-red text-light h-32 pt-3 items-center md:flex-row md:justify-between md:pt-0 md:h-18 max-2xs:h-52 dark:text-dark">
       <div class="flex items-center md:ml-20 pb-4 md:pb-0 cursor-pointer">
         <a href="/">
             <img class="size-12 min-w-12 min-h-12 px-1 invert-[.91] sepia-[.08] saturate-[11.06] hue-rotate-[190deg] brightness-[1.06] contrast-[.88] dark:invert-0" src="images\logo.svg" alt="logo">
@@ -24,7 +24,7 @@
         <span class="max-2xs:hidden ml-2 text-2xl font-semibold text-nowrap">PC Mouse House</span>
       </div>
 
-      <nav class="flex flex-col md:flex-row gap-6 text-xl font-semibold md:mr-20">
+      <nav class="flex max-2xs:flex-col md:flex-row gap-6 max-2xs:gap-4 text-xl font-semibold md:mr-20">
         <span class="hover:text-dark dark:hover:text-light hover:scale-110 hover:cursor-pointer m-auto">Home</span>
         <span class="hover:text-dark dark:hover:text-light hover:scale-110 hover:cursor-pointer m-auto">Products</span>
         <span class="hover:text-dark dark:hover:text-light hover:scale-110 hover:cursor-pointer m-auto">About</span>
@@ -32,49 +32,51 @@
     </header>
 
     <main class="max-w-7xl m-auto">
+
       <section class="text-center my-16">
-        <h1 class="text-4xl">Welcome to PC Mouse House</h1>
-        <p class="text-xl mt-2 mb-3">Your one stop shop for computer mice info!</p>
+        <h1 class="text-4xl max-sm:text-3xl max-2xs:text-lg max-2xs:font-medium mx-4">Welcome to PC Mouse House</h1>
+        <p class="text-xl max-sm:text-lg max-2xs:text-base mt-2 mb-3 mx-5">Your one stop shop for computer mice info!</p>
         <button class="border-2 rounded-md border-light p-2 bg-bg-red text-light hover:border-bg-red hover:bg-light hover:text-bg-red dark:border-dark font-medium">Learn More</button>
       </section>
+
       <section class="mx-2 2xs:mx-4 sm:mx-10">
-        <div class="flex gap-6 flex-wrap justify-center">
-          <div class="max-w-sm border rounded-md border-border-dark dark:border-border-light p-3">
+        <div class="flex flex-wrap justify-center gap-6">
+          <div class="max-w-sm border rounded-md border-border-dark dark:border-border-light p-3 dark:bg-card-bg-dark shadow">
             <img class="rounded-md" src="./images/products/razor-basilisk-35k-pro.png" alt="Razor Basilisk Pro 35K">
-            <h1 class="text-lg font-semibold">Razor Basilisk Pro 35K</h1>
+            <h1 class="text-lg font-semibold my-3">Razor Basilisk Pro 35K</h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
           </div>
-          <div class="max-w-sm border rounded-md border-border-dark dark:border-border-light p-3">
+          <div class="max-w-sm border rounded-md border-border-dark dark:border-border-light p-3 dark:bg-card-bg-dark shadow">
             <img class="rounded-md" src="./images/products/razor-basilisk-35k-wired.png" alt="Razor Basilisk 35K">
-            <h1 class="text-lg font-semibold">Razor Basilisk Pro 35K</h1>
+            <h1 class="text-lg font-semibold my-3">Razor Basilisk Pro 35K</h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
           </div>
-          <div class="max-w-sm border rounded-md border-border-dark dark:border-border-light p-3">
+          <div class="max-w-sm border rounded-md border-border-dark dark:border-border-light p-3 dark:bg-card-bg-dark shadow">
             <img class="rounded-md" src="./images/products/razor-basilisk-35k.png" alt="Razor Basilisk">
-            <h1 class="text-lg font-semibold">Razor Basilisk Pro 35K</h1>
+            <h1 class="text-lg font-semibold my-3">Razor Basilisk Pro 35K</h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
           </div>
-          <div class="max-w-sm border rounded-md border-border-dark dark:border-border-light p-3">
+          <div class="max-w-sm border rounded-md border-border-dark dark:border-border-light p-3 dark:bg-card-bg-dark shadow">
             <img class="rounded-md" src="./images/products/razor-basilisk-35k-pro.png" alt="Razor Basilisk Pro 35K">
-            <h1 class="text-lg font-semibold">Razor Basilisk Pro 35K</h1>
+            <h1 class="text-lg font-semibold my-3">Razor Basilisk Pro 35K</h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
           </div>
-          <div class="max-w-sm border rounded-md border-border-dark dark:border-border-light p-3">
+          <div class="max-w-sm border rounded-md border-border-dark dark:border-border-light p-3 dark:bg-card-bg-dark shadow">
             <img class="rounded-md" src="./images/products/razor-basilisk-35k-wired.png" alt="Razor Basilisk 35K">
-            <h1 class="text-lg font-semibold">Razor Basilisk Pro 35K</h1>
+            <h1 class="text-lg font-semibold my-3">Razor Basilisk Pro 35K</h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
           </div>
-          <div class="max-w-sm border rounded-md border-border-dark dark:border-border-light p-3">
+          <!-- <div class="max-w-sm border rounded-md border-border-dark dark:border-border-light p-3">
             <img class="rounded-md" src="./images/products/razor-basilisk-35k.png" alt="Razor Basilisk">
-            <h1 class="text-lg font-semibold">Razor Basilisk Pro 35K</h1>
+            <h1 class="text-lg font-semibold my-3">Razor Basilisk Pro 35K</h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-          </div>
+          </div> -->
         </div>
       </section>
     </main>
 
-    <footer class="h-20 bg-bg-red mt-16 text-center text-light font-semibold dark:text-dark">
-      <p class="">2024</p>
+    <footer class="h-20 bg-bg-red mt-16 text-center content-center text-light font-semibold dark:text-dark">
+      <p>PC Mouse House 2024</p>
     </footer>
 
   </body>
